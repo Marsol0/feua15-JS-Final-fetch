@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-left.css' rel='stylesheet'>
+    <title>Action Figures</title>
+  <body>
+
+      <header>
+        <div class="desktop-header">
+          <h2><a href="./index.html">ActionVerse</a><span class="logo-lt">.lt</span></h2>
+          <section class="search-input-section">
+          <input type="text" placeholder="Search by city e.p Kaunas, Vilnius, Kaipeda..." class="search" id="searchInput">
+          <div class="scearchImg">
+            <img src="../assets/VisualEditor_-_Icon_-_Search.svg.png" alt="action figures" id="search-img">
+          </div>
+          
+          </section>
+          <a href="../form/form.html"><span class="add-card">+</span> Add Figure</a>
+        </div>
+        <!-- Mobile header -->
+
+        <div class="mobile-header">
+          <div class="logo-and-add-mobile-version">
+            <h2><a href="./index.html">ActionVerse</a><span class="logo-lt">.lt</span></h2>
+          <a href="../form/form.html"><span class="add-card">+</span> Add Figure</a>
+          </div>
+          <section class="search-input-section">
+             <input type="text" placeholder="Search by city e.p Kaunas, Vilnius, Kaipeda..." class="search" id="searchInput">
+              <div class="scearchImg">
+              <img src="../assets/VisualEditor_-_Icon_-_Search.svg.png" alt="action figures" id="search-img">
+          </section>
+          
+        </div>
+
+      </header>
+
+      <div class="page-wrapper" id="page-wrapper">
+        <div class="result-section">
+          <h3>Results <span id="card-count" class="card-count"></span></h3>
+          <p id="pushTofindOutInfo">Push on figure to find out more</p>
+
+        </div>
+        <!-- created and added cards -->
+        <div id="card-section" class="card-section">
+          
+        </div>
+        
+      </div>
+    <footer>
+      <h2><a href="./index.html">ActionVerse</a><span class="logo-lt">.lt</span></h2>
+      <div class="country">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Lithuania.svg" alt="">
+        <h3>Lithuania</h3>
+      </div>
+    </footer>
+    <script defer type="module" src="app.js"></script>
+    <script defer type="module" src="search.js"></script>
+  </body>
+</html>
